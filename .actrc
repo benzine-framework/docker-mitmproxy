@@ -1,0 +1,10 @@
+--use-new-action-cache
+--action-cache-path=.github/cache/act/actions
+--cache-server-path=.github/cache/act/cache
+--artifact-server-path=.github/cache/act/artifacts
+--artifact-server-port=34003
+--platform self-hosted=ghcr.io/catthehacker/ubuntu:act-latest
+--platform ubuntu-latest=ghcr.io/catthehacker/ubuntu:act-latest
+--platform ubuntu-22.04=ghcr.io/catthehacker/ubuntu:act-22.04
+--platform ubuntu-20.04=ghcr.io/catthehacker/ubuntu:act-20.04
+--platform ubuntu-18.04=ghcr.io/catthehacker/ubuntu:act-18.04

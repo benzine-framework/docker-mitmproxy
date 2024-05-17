@@ -1,0 +1,59 @@
+# This file controls the behavior of Trunk: https://docs.trunk.io/cli
+# To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
+version: 0.1
+cli:
+  version: 1.22.1
+# Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
+plugins:
+  sources:
+    - id: trunk
+      ref: v1.5.0
+      uri: https://github.com/trunk-io/plugins
+# Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
+runtimes:
+  enabled:
+    - go@1.21.0
+    - node@18.12.1
+    - python@3.10.8
+# This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
+lint:
+  enabled:
+    - gitleaks@8.18.2
+    - markdownlint@0.40.0
+    - taplo@0.8.1
+    - actionlint@1.7.0
+    - checkov@3.2.92
+    - git-diff-check
+    - prettier@3.2.5
+    - trivy@0.51.1
+    - trufflehog@3.76.2
+    - yamllint@1.35.1
+  definitions:
+    - name: markdownlint
+      direct_configs:
+        - .markdownlintignore
+        - .markdownlint.yaml
+actions:
+  disabled:
+    - trunk-upgrade-available
+  enabled:
+    - trunk-announce
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
+tools:
+  enabled:
+    - tfupdate@0.8.2
+    - phpstan@1.10.58
+    - gh@2.49.2
+    - jq@jq-1.7.1
+    - yq@4.44.1
+    - awscli@1.32.107
+    - action-validator@0.6.0
+    - act@0.2.62
+    - shellcheck@0.10.0
+    - hadolint@2.12.0
+    - svgo@3.3.2
+    - tofu@1.7.1
+    - trunk-toolbox@0.3.1
+    - tflint@0.51.1
+    - terraform@1.1.4
