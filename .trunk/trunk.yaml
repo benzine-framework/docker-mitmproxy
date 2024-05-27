@@ -24,10 +24,10 @@ lint:
     - trivy
   enabled:
     - gitleaks@8.18.2
-    - markdownlint@0.40.0
+    - markdownlint@0.41.0
     - taplo@0.8.1
     - actionlint@1.7.0
-    - checkov@3.2.98
+    - checkov@3.2.109
     - git-diff-check
     - prettier@3.2.5
     - yamllint@1.35.1
@@ -50,7 +50,7 @@ tools:
     - gh@2.49.2
     - jq@jq-1.7.1
     - yq@4.44.1
-    - awscli@1.32.108
+    - awscli@1.32.113
     - action-validator@0.6.0
     - act@0.2.62
     - shellcheck@0.10.0
