@@ -23,13 +23,13 @@ lint:
     - terrascan
     - trivy
   enabled:
-    - gitleaks@8.18.2
+    - gitleaks@8.18.3
     - markdownlint@0.41.0
     - taplo@0.8.1
-    - actionlint@1.7.0
-    - checkov@3.2.109
+    - actionlint@1.7.1
+    - checkov@3.2.124
     - git-diff-check
-    - prettier@3.2.5
+    - prettier@3.3.0
     - yamllint@1.35.1
   definitions:
     - name: markdownlint
@@ -50,9 +50,9 @@ tools:
     - gh@2.49.2
     - jq@jq-1.7.1
     - yq@4.44.1
-    - awscli@1.32.113
+    - awscli@1.32.117
     - action-validator@0.6.0
-    - act@0.2.62
+    - act@0.2.63
     - shellcheck@0.10.0
     - hadolint@2.12.0
     - svgo@3.3.2
