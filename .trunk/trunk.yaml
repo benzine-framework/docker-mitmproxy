@@ -25,9 +25,9 @@ lint:
   enabled:
     - gitleaks@8.18.4
     - markdownlint@0.41.0
-    - taplo@0.9.2
+    - taplo@0.9.3
     - actionlint@1.7.1
-    - checkov@3.2.208
+    - checkov@3.2.218
     - git-diff-check
     - prettier@3.3.3
     - yamllint@1.35.1
