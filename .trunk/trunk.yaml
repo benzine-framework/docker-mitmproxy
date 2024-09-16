@@ -23,11 +23,11 @@ lint:
     - terrascan
     - trivy
   enabled:
-    - gitleaks@8.18.4
+    - gitleaks@8.19.1
     - markdownlint@0.41.0
     - taplo@0.9.3
     - actionlint@1.7.1
-    - checkov@3.2.249
+    - checkov@3.2.254
     - git-diff-check
     - prettier@3.3.3
     - yamllint@1.35.1
