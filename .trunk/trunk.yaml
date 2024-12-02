@@ -24,12 +24,12 @@ lint:
     - trivy
   enabled:
     - gitleaks@8.21.2
-    - markdownlint@0.42.0
+    - markdownlint@0.43.0
     - taplo@0.9.3
     - actionlint@1.7.4
-    - checkov@3.2.296
+    - checkov@3.2.322
     - git-diff-check
-    - prettier@3.3.3
+    - prettier@3.4.1
     - yamllint@1.35.1
   definitions:
     - name: markdownlint
@@ -47,7 +47,7 @@ tools:
   enabled:
     - tfupdate@0.8.5
     - phpstan@1.10.58
-    - gh@2.62.0
+    - gh@2.63.0
     - jq@jq-1.7.1
     - yq@4.44.3
     - awscli@1.35.5
