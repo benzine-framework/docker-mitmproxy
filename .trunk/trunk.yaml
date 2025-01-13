@@ -26,8 +26,8 @@ lint:
     - gitleaks@8.22.1
     - markdownlint@0.43.0
     - taplo@0.9.3
-    - actionlint@1.7.5
-    - checkov@3.2.346
+    - actionlint@1.7.6
+    - checkov@3.2.352
     - git-diff-check
     - prettier@3.4.2
     - yamllint@1.35.1
@@ -49,8 +49,8 @@ tools:
     - phpstan@1.10.58
     - gh@2.63.2
     - jq@jq-1.7.1
-    - yq@4.44.6
-    - awscli@1.36.33
+    - yq@4.45.1
+    - awscli@1.36.38
     - action-validator@0.6.0
     - act@0.2.68
     - shellcheck@0.10.0
