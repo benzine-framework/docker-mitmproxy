@@ -23,11 +23,11 @@ lint:
     - terrascan
     - trivy
   enabled:
-    - gitleaks@8.23.1
-    - markdownlint@0.43.0
+    - gitleaks@8.23.2
+    - markdownlint@0.44.0
     - taplo@0.9.3
-    - actionlint@1.7.6
-    - checkov@3.2.353
+    - actionlint@1.7.7
+    - checkov@3.2.357
     - git-diff-check
     - prettier@3.4.2
     - yamllint@1.35.1
@@ -46,7 +46,7 @@ actions:
 tools:
   enabled:
     - tfupdate@0.8.5
-    - phpstan@1.10.58
+    - phpstan@2.0.3
     - gh@2.63.2
     - jq@jq-1.7.1
     - yq@4.45.1
@@ -58,5 +58,5 @@ tools:
     - svgo@3.3.2
     - tofu@1.8.3
     - trunk-toolbox@0.5.4
-    - tflint@0.54.0
+    - tflint@0.55.0
     - terraform@1.1.4
