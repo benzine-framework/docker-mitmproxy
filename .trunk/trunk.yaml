@@ -2,7 +2,7 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.22.11
+  version: 1.22.12
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -27,7 +27,7 @@ lint:
     - markdownlint@0.44.0
     - taplo@0.9.3
     - actionlint@1.7.7
-    - checkov@3.2.394
+    - checkov@3.2.396
     - git-diff-check
     - prettier@3.5.3
     - yamllint@1.37.0
@@ -50,9 +50,9 @@ tools:
     - gh@2.69.0
     - jq@jq-1.7.1
     - yq@4.45.1
-    - awscli@1.38.23
+    - awscli@1.38.28
     - action-validator@0.6.0
-    - act@0.2.75
+    - act@0.2.76
     - shellcheck@0.10.0
     - hadolint@2.12.0
     - svgo@3.3.2
