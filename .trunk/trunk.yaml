@@ -27,7 +27,7 @@ lint:
     - markdownlint@0.45.0
     - taplo@0.9.3
     - actionlint@1.7.7
-    - checkov@3.2.425
+    - checkov@3.2.432
     - git-diff-check
     - prettier@3.5.3
     - yamllint@1.37.1
@@ -58,5 +58,5 @@ tools:
     - svgo@3.3.2
     - tofu@1.9.1
     - trunk-toolbox@0.5.4
-    - tflint@0.57.0
+    - tflint@0.58.0
     - terraform@1.1.4
