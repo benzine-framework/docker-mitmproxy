@@ -27,7 +27,7 @@ lint:
     - markdownlint@0.45.0
     - taplo@0.9.3
     - actionlint@1.7.7
-    - checkov@3.2.457
+    - checkov@3.2.460
     - git-diff-check
     - prettier@3.6.2
     - yamllint@1.37.1
@@ -45,18 +45,18 @@ actions:
     - trunk-fmt-pre-commit
 tools:
   enabled:
-    - tfupdate@0.9.1
+    - tfupdate@0.9.2
     - phpstan@2.0.3
-    - gh@2.72.0
+    - gh@2.76.2
     - jq@jq-1.7.1
     - yq@4.47.1
-    - awscli@1.42.1
+    - awscli@1.42.6
     - action-validator@0.7.1
-    - act@0.2.78
-    - shellcheck@0.10.0
+    - act@0.2.80
+    - shellcheck@0.11.0
     - hadolint@2.12.0
     - svgo@4.0.0
     - tofu@1.10.5
     - trunk-toolbox@0.5.4
-    - tflint@0.58.0
+    - tflint@0.58.1
     - terraform@1.1.4
