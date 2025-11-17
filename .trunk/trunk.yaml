@@ -7,7 +7,7 @@ cli:
 plugins:
   sources:
     - id: trunk
-      ref: v1.7.3
+      ref: v1.7.4
       uri: https://github.com/trunk-io/plugins
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
@@ -27,7 +27,7 @@ lint:
     - markdownlint@0.45.0
     - taplo@0.10.0
     - actionlint@1.7.8
-    - checkov@3.2.491
+    - checkov@3.2.493
     - git-diff-check
     - prettier@3.6.2
     - yamllint@1.37.1
@@ -47,10 +47,10 @@ tools:
   enabled:
     - tfupdate@0.9.2
     - phpstan@2.0.3
-    - gh@2.83.0
+    - gh@2.83.1
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.42.69
+    - awscli@1.42.74
     - action-validator@0.7.1
     - act@0.2.82
     - shellcheck@0.11.0
@@ -58,5 +58,5 @@ tools:
     - svgo@4.0.0
     - tofu@1.10.7
     - trunk-toolbox@0.5.4
-    - tflint@0.59.1
+    - tflint@0.60.0
     - terraform@1.1.4
