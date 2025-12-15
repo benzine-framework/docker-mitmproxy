@@ -24,7 +24,7 @@ lint:
     - trivy
   enabled:
     - gitleaks@8.30.0
-    - markdownlint@0.46.0
+    - markdownlint@0.47.0
     - taplo@0.10.0
     - actionlint@1.7.9
     - checkov@3.2.495
@@ -47,16 +47,16 @@ tools:
   enabled:
     - tfupdate@0.9.3
     - phpstan@2.0.3
-    - gh@2.83.1
+    - gh@2.83.2
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.43.10
+    - awscli@1.43.15
     - action-validator@0.7.1
     - act@0.2.83
     - shellcheck@0.11.0
     - hadolint@2.14.0
     - svgo@4.0.0
-    - tofu@1.10.7
+    - tofu@1.11.1
     - trunk-toolbox@0.5.4
     - tflint@0.60.0
     - terraform@1.1.4
