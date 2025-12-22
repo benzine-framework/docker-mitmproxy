@@ -50,13 +50,13 @@ tools:
     - gh@2.83.2
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.43.15
+    - awscli@1.44.4
     - action-validator@0.7.1
     - act@0.2.83
     - shellcheck@0.11.0
     - hadolint@2.14.0
     - svgo@4.0.0
-    - tofu@1.11.1
+    - tofu@1.11.2
     - trunk-toolbox@0.5.4
     - tflint@0.60.0
     - terraform@1.1.4
