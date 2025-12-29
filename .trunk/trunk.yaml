@@ -27,7 +27,7 @@ lint:
     - markdownlint@0.47.0
     - taplo@0.10.0
     - actionlint@1.7.9
-    - checkov@3.2.495
+    - checkov@3.2.496
     - git-diff-check
     - prettier@3.7.4
     - yamllint@1.37.1
@@ -50,7 +50,7 @@ tools:
     - gh@2.83.2
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.44.4
+    - awscli@1.44.7
     - action-validator@0.7.1
     - act@0.2.83
     - shellcheck@0.11.0
