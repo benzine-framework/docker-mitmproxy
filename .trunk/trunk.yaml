@@ -50,7 +50,7 @@ tools:
     - gh@2.83.2
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.44.11
+    - awscli@1.44.15
     - action-validator@0.7.1
     - act@0.2.84
     - shellcheck@0.11.0
