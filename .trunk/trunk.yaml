@@ -50,7 +50,7 @@ tools:
     - gh@2.86.0
     - jq@jq-1.7.1
     - yq@4.48.1
-    - awscli@1.44.29
+    - awscli@1.44.34
     - action-validator@0.7.1
     - act@0.2.84
     - shellcheck@0.11.0
@@ -58,5 +58,5 @@ tools:
     - svgo@4.0.0
     - tofu@1.11.4
     - trunk-toolbox@0.5.4
-    - tflint@0.60.0
+    - tflint@0.61.0
     - terraform@1.1.4
