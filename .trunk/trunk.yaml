@@ -27,9 +27,9 @@ lint:
     - markdownlint@0.48.0
     - taplo@0.10.0
     - actionlint@1.7.12
-    - checkov@3.2.533
+    - checkov@3.3.1
     - git-diff-check
-    - prettier@3.8.3
+    - prettier@3.8.4
     - yamllint@1.38.0
   definitions:
     - name: markdownlint
@@ -47,16 +47,16 @@ tools:
   enabled:
     - tfupdate@0.9.4
     - phpstan@2.0.3
-    - gh@2.93.0
+    - gh@2.94.0
     - jq@jq-1.7.1
     - yq@4.53.3
-    - awscli@1.45.24
+    - awscli@1.45.29
     - action-validator@0.9.0
-    - act@0.2.88
+    - act@0.2.89
     - shellcheck@0.11.0
     - hadolint@2.14.0
     - svgo@4.0.1
-    - tofu@1.12.1
+    - tofu@1.12.2
     - trunk-toolbox@0.7.0
     - tflint@0.62.0
     - terraform@1.1.4
