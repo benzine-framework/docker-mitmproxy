@@ -27,9 +27,9 @@ lint:
     - markdownlint@0.49.0
     - taplo@0.10.0
     - actionlint@1.7.12
-    - checkov@3.3.1
+    - checkov@3.3.5
     - git-diff-check
-    - prettier@3.8.4
+    - prettier@3.9.3
     - yamllint@1.38.0
   definitions:
     - name: markdownlint
@@ -50,7 +50,7 @@ tools:
     - gh@2.95.0
     - jq@jq-1.7.1
     - yq@4.53.3
-    - awscli@1.45.34
+    - awscli@1.45.36
     - action-validator@0.9.0
     - act@0.2.89
     - shellcheck@0.11.0
