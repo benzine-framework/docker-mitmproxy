@@ -29,7 +29,7 @@ lint:
     - actionlint@1.7.12
     - checkov@3.3.8
     - git-diff-check
-    - prettier@3.9.5
+    - prettier@3.9.6
     - yamllint@1.38.0
   definitions:
     - name: markdownlint
@@ -50,7 +50,7 @@ tools:
     - gh@2.96.0
     - jq@jq-1.7.1
     - yq@4.53.3
-    - awscli@1.45.40
+    - awscli@1.45.56
     - action-validator@0.9.0
     - act@0.2.89
     - shellcheck@0.11.0
