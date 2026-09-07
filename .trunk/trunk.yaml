@@ -47,7 +47,7 @@ tools:
   enabled:
     - tfupdate@0.10.2
     - phpstan@2.0.3
-    - gh@2.98.0
+    - gh@2.100.0
     - jq@jq-1.7.1
     - yq@4.53.6
     - awscli@1.46.1
