@@ -2,7 +2,7 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.25.0
+  version: 1.29.0
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -45,18 +45,18 @@ actions:
     - trunk-fmt-pre-commit
 tools:
   enabled:
-    - tfupdate@0.10.2
+    - tfupdate@0.10.3
     - phpstan@2.0.3
     - gh@2.103.3
     - jq@jq-1.7.1
     - yq@4.54.1
-    - awscli@1.46.2
+    - awscli@1.46.3
     - action-validator@0.9.0
-    - act@0.2.89
+    - act@0.2.97
     - shellcheck@0.11.0
     - hadolint@2.15.1
     - svgo@4.1.0
-    - tofu@1.13.2
+    - tofu@1.13.9
     - trunk-toolbox@0.7.0
     - tflint@0.64.0
     - terraform@1.1.4
